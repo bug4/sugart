@@ -6,12 +6,17 @@ const LoadingScreen: React.FC = () => {
     <div className="fixed inset-0 bg-gradient-to-br from-pink-400 via-pink-500 to-pink-600 flex items-center justify-center z-50">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-10 left-10 w-4 h-4 bg-pink-300 rounded-full animate-bounce opacity-60"></div>
-        <div className="absolute top-32 right-20 w-3 h-3 bg-white rounded-full animate-pulse opacity-70"></div>
-        <div className="absolute bottom-40 left-1/4 w-5 h-5 bg-pink-200 rounded-full animate-bounce opacity-50" style={{animationDelay: '0.5s'}}></div>
-        <div className="absolute top-1/2 right-10 w-2 h-2 bg-pink-100 rounded-full animate-pulse opacity-80" style={{animationDelay: '1s'}}></div>
-        <div className="absolute bottom-20 right-1/3 w-4 h-4 bg-white rounded-full animate-bounce opacity-60" style={{animationDelay: '1.5s'}}></div>
-        <div className="absolute top-20 left-1/2 w-3 h-3 bg-pink-300 rounded-full animate-pulse opacity-50" style={{animationDelay: '2s'}}></div>
+        {/* Candy Elements */}
+        <div className="absolute top-10 left-10 text-4xl animate-bounce opacity-70" style={{animationDelay: '0s'}}>🍭</div>
+        <div className="absolute top-32 right-20 text-3xl animate-pulse opacity-60" style={{animationDelay: '0.5s'}}>🍬</div>
+        <div className="absolute bottom-40 left-1/4 text-5xl animate-bounce opacity-50" style={{animationDelay: '1s'}}>🧁</div>
+        <div className="absolute top-1/2 right-10 text-2xl animate-pulse opacity-80" style={{animationDelay: '1.5s'}}>🍪</div>
+        <div className="absolute bottom-20 right-1/3 text-4xl animate-bounce opacity-60" style={{animationDelay: '2s'}}>🍰</div>
+        <div className="absolute top-20 left-1/2 text-3xl animate-pulse opacity-70" style={{animationDelay: '2.5s'}}>🍩</div>
+        <div className="absolute top-60 left-20 text-2xl animate-bounce opacity-50" style={{animationDelay: '3s'}}>🧁</div>
+        <div className="absolute bottom-60 right-40 text-3xl animate-pulse opacity-60" style={{animationDelay: '3.5s'}}>🍭</div>
+        <div className="absolute top-80 right-60 text-4xl animate-bounce opacity-40" style={{animationDelay: '4s'}}>🍫</div>
+        <div className="absolute bottom-80 left-40 text-2xl animate-pulse opacity-70" style={{animationDelay: '4.5s'}}>🍬</div>
       </div>
 
       <div className="text-center relative">
